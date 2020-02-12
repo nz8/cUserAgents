@@ -6,7 +6,7 @@ NOTE: Since the site this module depends on for data now has a form of DDOS prot
 
 # Usage:
 Retrieving and printing the single most common user agent string: 
-```
+```javascript
 let cUserAgents=require('./f');
 
 let userAgents=new cUserAgents();
