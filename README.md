@@ -14,7 +14,7 @@ userAgents.initialize({},function(){
     console.log(userAgents.getUserAgent());
 })
 ```
-The object passed to initialize is optional and used for configuration. This configuration object can contain the following properties with the following values: autoUpdate: 0 or 1, cache: 0 or 1, autoUpdateInterval: NUM OF DAYS. cachePath: ‘FULL PATH TO CACHE FILE’.
+The object passed to initialize() is optional and used for configuration. This configuration object can contain the following properties with the following values: autoUpdate: 0 or 1, cache: 0 or 1, autoUpdateInterval: NUM OF DAYS. cachePath: ‘FULL PATH TO CACHE FILE’.
 
 
 
