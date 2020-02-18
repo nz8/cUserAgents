@@ -21,7 +21,7 @@ class cUserAgents{
     }
     // Initializes the class, takes a configuration object and callback that is called once the class has been initialized with data.
     // The configuration object can contain the following properties with the following values: autoUpdate: 0 or 1, cache: 0 or 1,
-    // autoUpdateInterval: NUM OF DAYS. cachePath: 'FULL PATH TO CACHE FILE'
+    // autoUpdateInterval: NUM OF DAYS, cachePath: 'FULL PATH TO CACHE FILE'
     initialize(o={},n){
         this.configure(o);
         // If caching is disabled, retrieve user agents from web page.
